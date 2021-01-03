@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: lightgray;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: lime;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+#skin {
+  width: 500px;
+}

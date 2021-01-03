@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title>Math Shoot - Server List</title>
+  </head>
+  <body>
+    <p class="center"><a href="index.html">Back</a></p>
+    <p class="center">Skin: <input id="skin" placeholder="http:// or https:// for web image, file:// for local image, default.png for default skin">
+    <p class="center">Name: <input id="name" placeholder="JohnDoe"></p>
+    <p class="center">Added Servers</p>
+    <p class="center" id="servers"></p>
+    <p class="center"><button onclick="addServer();">Add Server</button></p>
+    <p class="center">Direct Connect: <input id="directaddress" placeholder="localhost"><button onclick="directConnect();">Connect to Server</button></p>
+    <script src="node_modules/@thecoder08/docuget/main.js"></script>
+    <script src="node_modules/@thecoder08/http/browser.js"></script>
+    <script src="serverlist.js"></script>
+  </body>
+</html>

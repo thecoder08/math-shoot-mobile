@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title>Math Shoot - Game</title>
+  </head>
+  <body>
+    <audio src="music.mp3" autoplay loop></audio>
+    <audio id="incorrect" src="incorrect.mp3"></audio>
+    <audio id="correct" src="correct.mp3"></audio>
+    <audio id="shotsound" src="shot.mp3"></audio>
+    <img style="display: none;" id="shot" src="shot.png" alt="Shot">
+    <img style="display: none;" id="player" alt="Player">
+    <p class="left"><a href="index.html">Back</a></p>
+    <p class="center"><button onclick="connect();">Connect</button><button onclick="disconnect();">Disconnect</button></p>
+    <p class="center"><canvas style="background-color: white" id="canvas" width="1000" height="850"></canvas></p>
+    <p class="center"><button onclick="up();">Up</button><button onclick="down();">Down</button><button onclick="left();">Left</button><button onclick="right();">Right</button></p>
+    <script src="node_modules/@thecoder08/docuget/main.js"></script>
+    <script src="node_modules/@thecoder08/http/browser.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

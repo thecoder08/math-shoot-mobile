@@ -1,0 +1,19 @@
+{
+  "name": "math-shoot",
+  "version": "1.0.2",
+  "description": "The GUI code for a video game for a math project we are working on.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "width": 1000,
+    "height": 1000
+  },
+  "author": "thecoder08",
+  "license": "MIT",
+  "dependencies": {
+    "@thecoder08/docuget": "^1.0.3",
+    "@thecoder08/http": "^1.0.2"
+  }
+}
